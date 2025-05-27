@@ -1,12 +1,27 @@
-# React + Vite
+# React Resume Website – Jass Khinda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal resume website built using React for the CSDD2002 course at Loyalist College.
 
-Currently, two official plugins are available:
+## Features
+- Built with Vite + React
+- Resume split into multiple components
+- Styled using App.css
+- Mobile responsive layout
+- Deployed on Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Site
+[https://jass-react-resume.vercel.app](https://jass-react-resume.vercel.app)
 
-## Expanding the ESLint configuration
+## GitHub Repo
+[https://github.com/jasskhinda/jass-react-resume](https://github.com/jasskhinda/jass-react-resume)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+![Resume Screenshot](./ResumescreenshotJass.png)
+
+## Challenges
+- Fixed blank screen caused by import and structure issues
+- Used App.css for simple and effective styling
+
+## Created by
+**Jass Khinda**  
+📧 info@jasskhinda.com
