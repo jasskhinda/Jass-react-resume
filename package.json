@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
+    "framer-motion": "^12.23.3",
+    "lucide-react": "^0.525.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-to-print": "^3.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
