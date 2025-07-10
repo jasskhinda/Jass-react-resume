@@ -1,5 +1,6 @@
 import './App.css'
 import { ThemeProvider } from './contexts/ThemeContext'
+import Navigation from './components/Navigation'
 import ThemeToggle from './components/ThemeToggle'
 import Title from './components/Title'
 import Summary from './components/Summary'
@@ -15,17 +16,34 @@ function App() {
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+        <Navigation />
         <ThemeToggle />
-        <main className="max-w-4xl mx-auto p-4">
+        <main className="max-w-4xl mx-auto px-4 pt-20">
           <Title />
-          <Summary />
-          <Skills />
-          <Experience />
-          <Projects />
-          <Education />
-          <Certificates />
-          <References />
-          <Contact />
+          <section id="summary">
+            <Summary />
+          </section>
+          <section id="skills">
+            <Skills />
+          </section>
+          <section id="experience">
+            <Experience />
+          </section>
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="education">
+            <Education />
+          </section>
+          <section id="certificates">
+            <Certificates />
+          </section>
+          <section id="references">
+            <References />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
         </main>
       </div>
     </ThemeProvider>
